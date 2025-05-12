@@ -1,0 +1,56 @@
+.navbar {
+  background-color: #001b44;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  height: 60px;
+}
+
+.navbar-section {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-section.center {
+  flex-grow: 1;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar-section.right {
+  justify-content: flex-end;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #e60023;
+}
+
+.logo {
+  height: 40px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  gap: 8px;
+}
+
+.user-icon {
+  font-size: 24px;
+  color: white;
+}
+
+.user-name {
+  color: white;
+  font-weight: 500;
+}

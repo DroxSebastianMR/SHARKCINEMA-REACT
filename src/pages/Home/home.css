@@ -1,0 +1,167 @@
+.cartelera {
+  padding: 40px 5%;
+  background-color: #f5f5f5;
+}
+
+.cartelera h2 {
+  color: #001b44;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.cartelera-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  justify-content: center; 
+  gap: 20px;
+  align-items: start;
+}
+
+/* Cada tarjeta */
+.movie-card {
+  background-color: #001b44;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-bottom: 15px;
+}
+
+.movie-card img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 2/3; /* para mantener proporción vertical */
+}
+
+.movie-title {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ffff;
+}
+
+/* Hover: agranda y eleva con sombra */
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+.registro-invitacion {
+  padding: 60px 5%;
+  background-color: #ffffff;
+}
+
+.registro-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.registro-img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.registro-contenido {
+  background-color: #f3f3f3;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+.registro-texto h2 {
+  color: #001b44;
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+}
+
+.registro-texto p {
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.registro-botones {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-rojo {
+  background-color: #c80039;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-rojo:hover {
+  background-color: #a5002f;
+  transform: scale(1.05);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #001b44;
+  color: #001b44;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-outline:hover {
+  background-color: #001b44;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .registro-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .registro-img {
+    max-width: 200px;
+  }
+
+  .registro-contenido {
+    max-width: 100%;
+  }
+}
+.cartelera-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px 20px;
+}
+
+.cartelera-header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.ver-mas {
+  font-size: 16px;
+  color: #c51e1e;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.ver-mas:hover {
+  text-decoration: underline;
+}

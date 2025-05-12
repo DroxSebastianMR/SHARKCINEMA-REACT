@@ -1,0 +1,99 @@
+.login-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-card {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.login-card h2 {
+  font-size: 2rem;
+  color: #001b44;
+  font-weight: 700;
+}
+
+.login-card p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.forgot-password {
+  display: block;
+  text-align: right;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: #001b44;
+  text-decoration: none;
+}
+
+.btn-ingresar {
+  background-color: #004ca3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-ingresar:hover {
+  background-color: #00397d;
+}
+
+.login-bottom {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.btn-unete {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #c80039;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-unete:hover {
+  background-color: #a3002e;
+}
+
+.login-header {
+  padding: 20px;
+}
+
+.btn-atras {
+  background: none;
+  border: none;
+  color: #004ca3;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-atras:hover {
+  text-decoration: underline;
+}
+
+
+
