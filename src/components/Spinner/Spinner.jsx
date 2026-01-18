@@ -1,6 +1,6 @@
 // src/components/Spinner/Spinner.jsx
 import React from "react";
-import "./Spinner.css";
+import "./spinner.css";
 
 export default function Spinner() {
   return (
